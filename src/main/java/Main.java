@@ -13,7 +13,7 @@ public class Main {
         while(reader.hasNext()) {
             String z = reader.next();
             int x = reader.nextInt();
-            if (!(z.equals("fibonnaci")) || !(z.equals("binary"))) {
+            if (!(z.equals("fibonacci")) || !(z.equals("binary"))) {
                 y = reader.nextInt();
             }
 
