@@ -107,9 +107,9 @@ class Calculator {
 
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
-    String createUniqueID(String x){
+    String createUniqueID(String n){
 
-        return x + UUID.randomUUID();
+        return n + UUID.randomUUID();
     }
 
 
